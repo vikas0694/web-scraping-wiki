@@ -4,7 +4,7 @@
 
 1. Open terminal
 2. Clone the repository:
-    **$ `git clone https://github.com/vikas0694/web-scrapping-wiki.git`**
+    **$ `git clone https://github.com/vikas0694/web-scraping-wiki.git`**
     
 3. cd web-scrapping-wiki
 4. Pip3 install -r requirements.txt

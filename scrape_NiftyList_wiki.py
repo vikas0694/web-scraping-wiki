@@ -19,7 +19,7 @@ for row in table.findAll("tr"):
     if len(cells) == 3:
         companies.append(cells[0].find(text=True))
         symbols.append(cells[1].findAll(text=True))
-        sectors.append(cells[2].find(text=True))
+        sectors.append(cells[2].find(text=True)) 
 
 # write data to dataframe 
 data = pd.DataFrame({"Company Name": companies, "Symbol": symbols, "Sector": sectors})
